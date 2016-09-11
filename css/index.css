@@ -1,0 +1,130 @@
+/* Global CSS*/
+html,
+body {
+  height: 100%;
+  background-color: #feee7d !important;
+}
+
+body > * {
+  font-family: 'Indie Flower', cursive;
+}
+
+h1, h2, h3, p {
+  text-align: center;
+}
+
+h1.section-title {
+  margin: 50px auto;
+  padding: 50px auto;
+}
+
+p {
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+/* NAVIGATION */
+nav {
+  padding: 20px;
+  background-color: #feee7d !important;
+  border: none !important;
+}
+
+nav .navbar-nav {
+  float: right;
+  margin-right: 35px;
+  padding: 10px;
+}
+
+nav .navbar-brand {
+  margin: 12px auto;
+  padding: 10px;
+  font-size: 38px;
+  font-weight: 660;
+  text-decoration: none;
+}
+
+nav .navbar-brand:hover,
+nav .navbar-brand:focus {
+  text-decoration: none;
+}
+
+.active {
+  color: black;
+  font-weight: 800;
+}
+
+.active:hover {
+  font-weight: 800;
+}
+
+.active:focus {
+  font-weight: 800;
+}
+
+.active:after {
+  font-weight: 800;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 22px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* SECTION */
+.content {
+  padding: 0 50px;
+}
+
+/*TOP SECTION*/
+
+h1.title {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.introduction .jumbotron {
+  background-color: #feee7d;
+}
+
+.introduction img {
+  position: absolute;
+  left: -280px;
+  transform: scale(0.5) rotate(60deg);
+}
+
+#down {
+  margin: 0 auto;
+  height: 200px;
+  width: 140px;
+  display: block;
+  font-size: 27px;
+  padding-top: 20px;
+}
+
+#down:hover {
+  cursor: pointer;
+}
+
+.fa.fa-chevron-down {
+  margin-left: 40px;
+}
+
+
+/* Llamadness */
+
+/*RESPONSIVENESS*/
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+}
